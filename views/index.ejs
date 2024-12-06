@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CloudSync</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .animate-fadeIn {
+      animation: fadeIn 1s ease-in-out;
+    }
+  </style>
+    
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
+
+    <!-- Header -->
+    <header class="bg-cover bg-center text-center py-16 bg-blue-600 dark:bg-blue-800 text-white animate-fadeIn">
+      <h1 class="text-4xl font-semibold">Welcome to CloudSync</h1>
+      <p class="mt-4 text-lg">Store, manage, and access your files anytime, anywhere.</p>
+    </header>
+  
+    
+
+    <!-- About Section -->
+    <section class="py-16 px-4 bg-white dark:bg-gray-800 text-center animate-fadeIn delay-200">
+      <h2 class="text-3xl font-semibold text-blue-600 dark:text-blue-400">About CloudSync</h2>
+      <p class="mt-4 text-lg max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
+        Our CloudSync allows you to securely upload, download, and organize your files with ease. Enjoy fast, reliable, and secure cloud storage. Join us today!
+      </p>
+    </section>
+  
+    <!-- Key Features Section -->
+    <section class="py-16 px-4 bg-gray-50 dark:bg-gray-700 animate-fadeIn delay-400">
+      <h2 class="text-3xl font-semibold text-blue-600 dark:text-blue-400 text-center">Key Features</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+        <div class="bg-white p-6 rounded-lg shadow-md text-center dark:bg-gray-800 dark:text-white">
+          <h3 class="text-xl font-semibold text-blue-600 dark:text-blue-400">Secure Storage</h3>
+          <p class="mt-4 text-gray-600 dark:text-gray-300">Your files are stored with top-notch security, ensuring they're protected at all times.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center dark:bg-gray-800 dark:text-white">
+          <h3 class="text-xl font-semibold text-blue-600 dark:text-blue-400">Fast Uploads</h3>
+          <p class="mt-4 text-gray-600 dark:text-gray-300">Upload your files quickly with our optimized upload system for maximum efficiency.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center dark:bg-gray-800 dark:text-white">
+          <h3 class="text-xl font-semibold text-blue-600 dark:text-blue-400">Access Anywhere</h3>
+          <p class="mt-4 text-gray-600 dark:text-gray-300">Access your files on any device, anywhere, at any time.</p>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Buttons Section -->
+    <div class="flex justify-center space-x-6 mt-8 animate-fadeIn delay-600">
+      <a href="/user/login" class="bg-blue-600 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-700 transition duration-300">Login</a>
+      <a href="/user/register" class="bg-yellow-500 text-white px-6 py-3 rounded-full text-lg hover:bg-yellow-600 transition duration-300">Sign Up</a>
+    </div>
+  
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-gray-800 dark:bg-gray-900 text-white mt-4 animate-fadeIn delay-800">
+      <p>&copy; 2024 CloudSync. All Rights Reserved.</p>
+      <p>Follow us on <a href="https://www.linkedin.com/in/anirudha-kesarkar-09ab482a9/" target="_blank" class="text-blue-400">LinkedIn</a> | <a href="https://www.instagram.com/anirudhakesarkar/" target="_blank" class="text-blue-400">Instagram</a></p>
+      <p>Anirudha Kesarkar</p>
+    </footer>
+
+</body>
+</html>
